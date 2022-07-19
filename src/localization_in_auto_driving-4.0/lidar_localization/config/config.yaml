@@ -1,0 +1,25 @@
+#config param
+registration_method: ICP_GN   # now NDT/NDT_OMP/ICP/ICP_CERES/SVD_ICP/ICP_GN
+
+cloud_set_leaf_size: 1.3
+local_set_leaf_size: 0.6
+dis_set_leaf_size: 0.5
+
+NDT:
+  res: 0.1
+  step_size: 0.1
+  trans_eps: 0.01
+  max_iter: 30
+
+NDT_OMP:
+  res: 0.1
+  step_size: 0.1
+  trans_eps: 0.01
+  max_iter: 30
+
+ICP:
+  max_iter: 35
+  euc_fit: 0.1
+  trans_eps: 0.01
+  max_dis: 1.0
+
